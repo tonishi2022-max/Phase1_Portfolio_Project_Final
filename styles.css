@@ -1,0 +1,63 @@
+* {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+#navbar {
+  border: 3px solid blue;
+  background-color: #f9d5d5;
+  position: sticky;
+  top: 0px;
+}
+
+#navbar ul {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  gap: 10px;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+#welcome-section {
+  border: 3px solid green;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: rgb(207, 183, 228);
+}
+
+#projects {
+  border: 3px solid purple;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+#image2 {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.project-tile {
+  border: 3px solid orange;
+  min-height: 80px;
+}
+
+#contact {
+  border: 3px solid pink;
+  background-color: rgb(194, 225, 252);
+}
+
+@media (max-width: 500px) {
+  #projects {
+    display: flex;
+    flex-direction: column;
+  }
+}
